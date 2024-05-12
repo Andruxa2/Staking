@@ -5,6 +5,6 @@ pragma solidity ^0.8.20;
 import "./ERC20.sol";
 
 contract StakingToken is ERC20 {
-    constructor() ERC20("Staking", "ST") {}
+    constructor() ERC20("Staking", "ST", 10000) {}
     
 }
